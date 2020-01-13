@@ -1,0 +1,14 @@
+1. $ git init  //To initialize git.
+2. $ git  // To see the common git commands.
+
+Only for first time..
+3. $ git config user.name "Mayen"  //
+4. $ git config user.email "engr.mayen19@gmail.com"  //
+
+
+5. $ git status  //To view what is inside of that repository
+6. $ git add . /or $ git add GitCommands.txt  // . means all file and the latter one is for a specific file.
+7. $ git commit -m "Git commands!"  //here m means message, this command is used to keep a version or record changes in a repository.
+8. $ git log  //To view all commit logs or saved versions.
+9. $ git checkout 87d45ce8f31f56923cd36284bd9b2800dd5b0adb // This command is used to go to a specific commit log or version. The hexadecimal id from $ git log command is used here.
+10.$ git checkout master  //
